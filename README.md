@@ -53,12 +53,12 @@ Add a new task_name in the file "tasks/index.ts"
 
 Running a grantMinterRole task:
 ```shell
-npx hardhat grantMinterRole --bridge {BRIDGE_ADDRESS} --token {TOKEN_ADDRESS} --network {NETWORK_NAME}
+npx hardhat grantMinterRole --token {TOKEN_ADDRESS} --bridge {BRIDGE_ADDRESS} --network {NETWORK_NAME}
 ```
 
 Running a grantBurnerRole task:
 ```shell
-npx hardhat grantBurnerRole --bridge {BRIDGE_ADDRESS} --token {TOKEN_ADDRESS} --network {NETWORK_NAME}
+npx hardhat grantBurnerRole --token {TOKEN_ADDRESS} --bridge {BRIDGE_ADDRESS} --network {NETWORK_NAME}
 ```
 
 Running a swap task:
